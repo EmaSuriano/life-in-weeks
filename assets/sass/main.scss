@@ -12,15 +12,17 @@
   --header-font-size-mobile: 48px;
 }
 
-@font-face {
-  font-family: redhatdisplay-medium;
-  src: url(/fonts/RedHatDisplay-Medium.ttf);
-}
+// @font-face {
+//   font-family: redhatdisplay-medium;
+//   src: url(fonts/RedHatDisplay-Medium.ttf);
+// }
 
-@font-face {
-  font-family: redhatdisplay-xtrabold;
-  src: url(/fonts/RedHatDisplay-ExtraBold.ttf);
-}
+// @font-face {
+//   font-family: redhatdisplay-xtrabold;
+//   src: url(fonts/RedHatDisplay-ExtraBold.ttf);
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
 
 *,
 :after,
@@ -37,7 +39,7 @@
 }
 
 body {
-  font-family: redhatdisplay-medium, serif;
+  font-family: 'Outfit', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-optical-sizing: auto;
@@ -53,7 +55,7 @@ body {
 }
 
 h1 {
-  font-family: redhatdisplay-xtrabold, serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 800;
   font-size: var(--header-font-size-desktop);
   margin: 0;

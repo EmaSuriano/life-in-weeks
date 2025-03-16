@@ -1,7 +1,7 @@
 baseURL = 'https://emasuriano.github.io/life-in-weeks/'
 languageCode = 'en-us'
 title = 'My Life in Weeks'
-disableKinds = ["taxonomy", "taxonomy"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 
 
