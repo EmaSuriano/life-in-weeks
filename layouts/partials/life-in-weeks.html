@@ -26,7 +26,8 @@ There are three main loops in this page, each nested inside the other: Years, We
 {{ $startYear := index $splitStart 0 }}
 {{ $startMonth := index $splitStart 1 }}
 {{ $startDay := index $splitStart 2 }}
-{{ $endYear := .Params.end_year }}
+{{ $startYearInt := int $startYear }}
+{{ $endYear := add $startYearInt 90 }}
 {{ $.Store.Set "association" "" }}
 {{ $.Store.Set "specificDate" $startDate }}
 
