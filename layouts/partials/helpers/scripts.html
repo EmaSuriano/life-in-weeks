@@ -1,27 +1,70 @@
 <script>
-    $(document).ready(function () {
-        $(function () {
-            var today = new Date();
-            $(".week").each(function (index) {
-                if (today < Date.parse($(this).attr("data-date"))) {
-                    $(this).addClass("future-date");
-                    $(this).attr("data-bs-toggle", null);
-                }
-            });
-            $(".birthday").each(function (index) {
-                if (today < Date.parse($(this).attr("data-date"))) {
-                    $(this).addClass("future-date");
-                    $(this).attr("data-bs-toggle", null);
-                }
-            });
-            const tooltipTriggerList = $('[data-bs-toggle="tooltip"]',);
-            const tooltipList = [...tooltipTriggerList].map(
-                (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
-            );
-        });
-        $(window).on("scroll touchmove", function () {
-            $("h1").toggleClass("tiny", $(document).scrollTop() > 0);
-            $(".navbar").toggleClass("d-block", $(document).scrollTop() > 200);
-        });
+  // Wait for DOM to be fully loaded
+  document.addEventListener("DOMContentLoaded", () => {
+    // Initialize Bootstrap tooltips after page is loaded
+    const initializeTooltips = () => {
+      // Make sure Bootstrap is loaded
+      if (typeof bootstrap !== "undefined") {
+        const tooltipTriggerList = document.querySelectorAll(
+          '[data-bs-toggle="tooltip"]'
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+          (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+        );
+      } else {
+        // If Bootstrap isn't loaded yet, try again shortly
+        setTimeout(initializeTooltips, 50);
+      }
+    };
+
+    // Mark future dates
+    const today = new Date();
+
+    // Process week elements
+    document.querySelectorAll(".week").forEach((weekEl) => {
+      if (today < Date.parse(weekEl.getAttribute("data-date"))) {
+        weekEl.classList.add("future-date");
+        weekEl.removeAttribute("data-bs-toggle");
+      }
     });
+
+    // Process birthday elements
+    document.querySelectorAll(".birthday").forEach((birthdayEl) => {
+      if (today < Date.parse(birthdayEl.getAttribute("data-date"))) {
+        birthdayEl.classList.add("future-date");
+        birthdayEl.removeAttribute("data-bs-toggle");
+      }
+    });
+
+    // Initialize tooltips
+    initializeTooltips();
+
+    // Handle scroll events
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+      const deepScrolled = window.scrollY > 200;
+      const header = document.querySelector("h1");
+      const navbar = document.querySelector(".navbar");
+
+      if (header) {
+        if (scrolled) {
+          header.classList.add("tiny");
+        } else {
+          header.classList.remove("tiny");
+        }
+      }
+
+      if (navbar) {
+        if (deepScrolled) {
+          navbar.classList.add("d-block");
+        } else {
+          navbar.classList.remove("d-block");
+        }
+      }
+    };
+
+    // Add scroll event listeners
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("touchmove", handleScroll);
+  });
 </script>
