@@ -1,7 +1,7 @@
-'1993-07-27':
-  - headline: '🐣 I was born'
-    based: 'Buenos Aires'
-    doing: 'I was tiny'
+"1993-07-27":
+  - headline: "🐣 I was born"
+    based: "Buenos Aires"
+    doing: "I was tiny"
 
 # Stuff to do add:
 
@@ -27,6 +27,7 @@
 # First bike
 # First car
 # First Mac
+# First driven license
 
 # PETS:
 
@@ -71,10 +72,10 @@
 # Switch to Engineering Manager
 # Fifth job, Revolut
 
-# Start AI Master
-# Present AI Master thesis
-# Get diploma from AI Master
+"2025-03-13":
+  - headline: "📜 Finish AI Master Thesis"
+    description: "After a lot of hard work, I submitted my thesis with 9.5/10"
 
-'2025-03-16':
-  - headline: '📍 Made this'
-    description: 'A lot of self reflection of my life and the things that I have done'
+"2025-03-16":
+  - headline: "📍 Made this"
+    description: "A lot of self reflection of my life and the things that I have done"
