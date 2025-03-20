@@ -51,7 +51,6 @@
 
 # WORLD EVENTS:
 
-# COVID-19
 # Full-scale War in Ukraine
 # 9/11
 # 2000 crisis in Argentina
@@ -72,9 +71,24 @@
 # Switch to Engineering Manager
 # Fifth job, Revolut
 
+"2020-01-27":
+  - headline: "🦠 COVID-19"
+    description: "The first case of COVID-19 was confirmed in Germany"
+
+"2024-03-13":
+  - headline: "🤖 Start AI Master Thesis"
+    description: "I took the decision to start my master thesis in AI"
+    based: "Berlin"
+    doing: "Studying AI"
+
+"2025-01-31":
+  - headline: "🐶 Chimi joins the family"
+    description: "We picked up Chimi from Ukraine"
+
 "2025-03-13":
   - headline: "📜 Finish AI Master Thesis"
     description: "After a lot of hard work, I submitted my thesis with 9.5/10"
+    doing: "Enjoying life"
 
 "2025-03-16":
   - headline: "📍 Made this"
