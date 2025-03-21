@@ -1,21 +1,34 @@
 # Link for palette: https://tailwindcolor.com/
 
-# LOCATIONS
+# LOCATIONS - Use 300
 - class_name: "buenos-aires"
   element: "border"
   color_name: "#8eb2d6"
+
 - class_name: "berlin"
   element: "border"
   color_name: "#FCA5A5"
 
-# DOING
+- class_name: "asia"
+  element: "border"
+  color_name: "#A78BFA"
+
+# DOING - Use 100
 - class_name: "i-was-tiny"
   element: "background-color"
   color_name: "white"
 
 - class_name: "studying-ai"
   element: "background-color"
-  color_name: "#FEE2E2"
+  color_name: "#FFE4E6"
+
+- class_name: "travelling"
+  element: "background-color"
+  color_name: "#F3E8FF"
+
+- class_name: "working"
+  element: "background-color"
+  color_name: "white"
 
 - class_name: "enjoying-life"
   element: "background-color"
