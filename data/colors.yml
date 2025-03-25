@@ -1,17 +1,25 @@
 # Link for palette: https://tailwindcolor.com/
 
-# LOCATIONS - Use 300
+# LOCATIONS - Use 400
 - class_name: "buenos-aires"
   element: "border"
-  color_name: "#8eb2d6"
+  color_name: "#94A3B8"
 
 - class_name: "berlin"
   element: "border"
-  color_name: "#FCA5A5"
+  color_name: "#F87171"
+
+- class_name: "sydney"
+  element: "border"
+  color_name: "#60A5FA"
+
+- class_name: "copenhagen"
+  element: "border"
+  color_name: "#FACC15"
 
 - class_name: "asia"
   element: "border"
-  color_name: "#A78BFA"
+  color_name: "#C084FC"
 
 # DOING - Use 100
 - class_name: "i-was-tiny"
@@ -22,9 +30,21 @@
   element: "background-color"
   color_name: "#FFE4E6"
 
+- class_name: "studying-german"
+  element: "background-color"
+  color_name: "#FFE4E6"
+
 - class_name: "travelling"
   element: "background-color"
   color_name: "#F3E8FF"
+
+- class_name: "watching-football"
+  element: "background-color"
+  color_name: "#D1FAE5"
+
+- class_name: "staying-at-home"
+  element: "background-color"
+  color_name: "#F5F5F4"
 
 - class_name: "working"
   element: "background-color"

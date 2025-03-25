@@ -19,31 +19,20 @@
 # First Sega
 # First PlayStation 1, 2
 # First bike
-# First car
 # First Mac
 # First driven license
 
 # PETS:
 # Time that I got Noel
 # Time that I got Lara
-# Time that I got Chimi
 
 # TRAVEL:
 # Living in Denmark
-# Trip to Australia
-
-# MILESTONES:
-
-# Move to Berlin
-# Get Permanent Residency
-# Applied for Citizenship
 
 # WORLD EVENTS:
 
 # Full-scale War in Ukraine
 # 9/11
-# 2000 crisis in Argentina
-# Argentina Wolrd Champion Qatar 2022
 
 # Meet Yuliia
 # Move together in Prenzlauber
@@ -52,18 +41,21 @@
 # PREVIOUS JOBS:
 
 # First job, Qservices
-# First time working with JQuery
 # Second job, Globant
 # Third job, FDV
-# Switch to frontend development
-# Fourth job, GoEuro
-# Switch to Engineering Manager
-# Fifth job, Revolut
 
 "1993-07-27":
   - headline: "🐣 I was born"
     based: "Buenos Aires"
     doing: "I was tiny"
+
+"2014-11-01":
+  - headline: "🐶 Lara joins the family"
+    description: "We picked up Lara when she was 3 months old"
+
+"2014-11-24":
+  - headline: "🚗 Get my first car"
+    description: "I bought my first car, a Land Rover"
 
 "2018-01-05":
   - headline: "🇺🇸 First trip to USA"
@@ -78,6 +70,11 @@
     description: "I moved to Germany to start a new life"
     based: "Berlin"
 
+"2018-08-27":
+  - headline: "🧑‍💻 Join GoEuro/Omio"
+    description: "Started working at GoEuro, now Omio"
+    doing: "Working"
+
 "2020-01-02":
   - headline: "🇹🇭 Solo trip in Thailand"
     description: "I took a solo trip to Thailand"
@@ -85,7 +82,7 @@
     doing: "Travelling"
 
 "2020-01-24":
-  - headline: "🔙 Back to Germany"
+  - headline: "🔙 Back Home"
     description: "I came back from the trip to Germany"
     based: "Berlin"
     doing: "Working"
@@ -93,10 +90,41 @@
 "2020-01-27":
   - headline: "🦠 COVID-19"
     description: "The first case of COVID-19 was confirmed in Germany"
+    doing: "Staying at home"
+
+"2020-03-23":
+  - headline: "🇩🇪 Start german lessons"
+    description: "I started taking german lessons"
+    doing: "Studying german"
 
 "2020-09-11":
   - headline: "📚 B1 German Exam"
     description: "I passed my B1 German Exam"
+
+"2020-11-10":
+  - "headline": "🧑‍💻 Join Revolut"
+    "description": "Started working at Revolut"
+    doing: "Working"
+
+"2022-03-13":
+  - headline: "🇩🇰 Move to Denmark"
+    description: "I moved to Denmark for a month"
+    based: "Copenhagen"
+
+"2022-04-03":
+  - headline: "🔙 Back Home"
+    description: "I came back from the trip to Germany"
+    based: "Berlin"
+
+"2022-11-20":
+  - headline: "⚽️ FIFA World Cup Qatar"
+    description: "The World Cup in Qatar 2022 started"
+    doing: "Watching football"
+
+"2022-12-18":
+  - headline: "🇦🇷 Argentina World Champion"
+    description: "Argentina won the World Cup in Qatar"
+    doing: "Working"
 
 "2023-08-12":
   - headline: "📚 B2 German Exam"
@@ -114,7 +142,17 @@
     doing: "Studying AI"
 
 "2024-04-23":
-  - headline: "🔙 Back to Germany"
+  - headline: "🔙 Back Home"
+    description: "I came back from the trip to Germany"
+    based: "Berlin"
+
+"2024-11-01":
+  - headline: "🇦🇺 Move to Sydney"
+    description: "I moved to Australia for a month"
+    based: "Sydney"
+
+"2024-11-17":
+  - headline: "🔙 Back Home"
     description: "I came back from the trip to Germany"
     based: "Berlin"
 
@@ -125,7 +163,7 @@
 "2025-03-13":
   - headline: "📜 Finish AI Master Thesis"
     description: "After a lot of hard work, I submitted my thesis with 9.5/10"
-    doing: "Enjoying life"
+    doing: "Working"
 
 "2025-03-16":
   - headline: "📍 Made this"
