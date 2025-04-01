@@ -2,12 +2,6 @@
 
 # EDUCATION:
 
-# Start kinder garden
-# Start primary school
-# Start secondary school
-# Change to a new school
-# Change to technical school
-# Finish technical school
 # Start university
 # Finish university
 
@@ -38,16 +32,71 @@
 # Move together in Prenzlauber
 # Move together in Friedrischain
 
-# PREVIOUS JOBS:
-
-# First job, Qservices
-# Second job, Globant
-# Third job, FDV
-
 "1993-07-27":
   - headline: "🐣 I was born"
     based: "Buenos Aires"
     doing: "I was tiny"
+
+"1995-03-01":
+  - headline: "👼 First day at pre-school"
+    based: "Buenos Aires"
+
+"1997-03-01":
+  - headline: "🧸 First day at kinder garden"
+    based: "Buenos Aires"
+    doing: "Playing in the kinder garden"
+
+"1999-03-01":
+  - headline: "👶 First day at primary school"
+    based: "Buenos Aires"
+    doing: "Learning to read and write"
+
+"2000-03-20":
+  - headline: "⚽️ First football classes"
+    description: "I started to take football classes"
+    based: "Buenos Aires"
+
+"2001-03-20":
+  - headline: "♟️ First chess class"
+    description: "I started to take chess classes"
+    based: "Buenos Aires"
+
+"2002-03-01":
+  - headline: "📓 Started to study English"
+    description: "I started to study English at a language school"
+    based: "Buenos Aires"
+
+"2003-05-20":
+  - headline: "🎾 First tennis classes"
+    description: "I started to take tennis classes"
+    based: "Buenos Aires"
+
+"2005-03-01":
+  - headline: "👦 First day at secondary school"
+    description: "I started secondary school"
+    based: "Buenos Aires"
+    doing: "Being a stupid teenager"
+
+"2008-03-01":
+  - headline: "👦 Change secondary school"
+    description: "I changed to a new secondary school"
+    based: "Buenos Aires"
+
+"2009-03-01":
+  - headline: "🧑‍💻 Change to a technical school"
+    description: "I changed to a technical school to study programming"
+    based: "Buenos Aires"
+    doing: "Learning to be a programmer"
+
+"2012-01-01":
+  - headline: "👨‍🎓 Start the University"
+    description: "I started studying computer science at the University of Buenos Aires"
+    based: "Buenos Aires"
+    doing: "Studying computer science"
+
+"2012-03-01":
+  - headline: "📚 First certification"
+    based: "Buenos Aires"
 
 "2014-11-01":
   - headline: "🐶 Lara joins the family"

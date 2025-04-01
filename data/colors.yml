@@ -26,6 +26,26 @@
   element: "background-color"
   color_name: "white"
 
+- class_name: "playing-in-the-kinder-garden"
+  element: "background-color"
+  color_name: "#cbfbf1"
+
+- class_name: "learning-to-read-and-write"
+  element: "background-color"
+  color_name: "#cefafe"
+
+- class_name: "being-a-stupid-teenager"
+  element: "background-color"
+  color_name: "#dff2fe"
+
+- class_name: "learning-to-be-a-programmer"
+  element: "background-color"
+  color_name: "#ede9fe"
+
+- class_name: "studying-computer-science"
+  element: "background-color"
+  color_name: "#fce7f3"
+
 - class_name: "studying-ai"
   element: "background-color"
   color_name: "#FFE4E6"
