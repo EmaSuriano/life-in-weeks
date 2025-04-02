@@ -23,6 +23,12 @@
 # TRAVEL:
 # Living in Denmark
 
+# WORK:
+
+# First job
+# Second job
+# Third job
+
 # WORLD EVENTS:
 
 # Full-scale War in Ukraine
@@ -164,6 +170,10 @@
   - headline: "🔙 Back Home"
     description: "I came back from the trip to Germany"
     based: "Berlin"
+
+"2022-11-02":
+  - headline: "🤖 Release of Chat GPT"
+    description: "The first version of Chat GPT was released to the public"
 
 "2022-11-20":
   - headline: "⚽️ FIFA World Cup Qatar"

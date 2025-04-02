@@ -68,7 +68,7 @@
 
 - class_name: "working"
   element: "background-color"
-  color_name: "white"
+  color_name: "#ffedd4"
 
 - class_name: "enjoying-life"
   element: "background-color"
