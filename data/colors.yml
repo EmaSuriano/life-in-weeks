@@ -21,6 +21,10 @@
   element: "border"
   color_name: "#C084FC"
 
+- class_name: "munich"
+  element: "border"
+  color_name: "#ff8904"
+
 # DOING - Use 100
 - class_name: "i-was-tiny"
   element: "background-color"
