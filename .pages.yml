@@ -1,5 +1,5 @@
 media:
   - name: docs
     label: Documents
-    input: files/documents
-    output: /files/documents
+    input: data
+    output: /data
