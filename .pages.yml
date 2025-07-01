@@ -8,7 +8,6 @@ content:
     label: Life Events
     type: file
     path: data/events.yml
-    format: yaml
     fields:
       - name: body
         label: Events Timeline
@@ -22,7 +21,6 @@ content:
     label: Colors
     type: file
     path: data/colors.yml
-    format: yaml
     fields:
       - name: body
         label: Colors YAML
