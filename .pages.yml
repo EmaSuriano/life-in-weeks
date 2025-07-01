@@ -1,9 +1,5 @@
-# Pages CMS Configuration for Life in Weeks
-# Official Pages CMS structure: media, content, components
 
-# Content configuration
 content:
-  # Direct YAML editing for events (recommended for your current structure)
   - name: events
     label: Life Events
     type: file
