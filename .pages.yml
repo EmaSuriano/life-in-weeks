@@ -1,5 +1,10 @@
 content:
-  - name: posts
-    label: Posts
+  - name: events
+    label: Events
     path: data/events.yml
+    type: file
+
+  - name: colors
+    label: Colors
+    path: data/colors.yml
     type: file
