@@ -19,7 +19,7 @@ content:
 
   # Colors configuration
   - name: colors
-    label: Colors Configuration
+    label: Colors
     type: file
     path: data/colors.yml
     format: yaml
