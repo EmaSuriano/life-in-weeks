@@ -1,0 +1,103 @@
+# Pages CMS Configuration for Life in Weeks
+# This configuration manages the events.yml file that contains life timeline events
+
+# Backend configuration
+# backend:
+#   name: github
+#   repo: your-username/life-in-weeks # Update with your repo
+#   branch: main
+
+# # Media configuration
+# media_folder: 'static/images'
+# public_folder: '/images'
+
+# Site configuration
+site_url: 'https://emasuriano.com/life-in-weeks'
+
+# Collections
+collections:
+  # Direct YAML editing approach (recommended for your current structure)
+  - name: 'events_raw'
+    label: 'Life Events (YAML Editor)'
+    description: 'Direct editing of events.yml - maintains your current date-key structure'
+    files:
+      - name: 'events'
+        label: 'Events Timeline'
+        file: 'data/events.yml'
+        fields:
+          - name: 'body'
+            label: 'Events YAML'
+            widget: 'code'
+            default_language: 'yaml'
+            output_code_only: true
+            hint: 'Edit your life events directly in YAML format. Be careful with formatting!'
+
+  # Alternative: Structured approach (requires data restructuring)
+  # - name: 'events_structured'
+  #   label: 'Life Events (Structured)'
+  #   description: 'User-friendly editing (would require converting your current date-key structure)'
+  #   create: true
+  #   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  #   folder: 'content/events'
+  #   format: 'yaml-frontmatter'
+  #   fields:
+  #     - name: 'date'
+  #       label: 'Date'
+  #       widget: 'datetime'
+  #       format: 'YYYY-MM-DD'
+  #       required: true
+  #     - name: 'headline'
+  #       label: 'Headline'
+  #       widget: 'string'
+  #       required: true
+  #       hint: 'Main title for the event (include emoji if desired)'
+  #     - name: 'description'
+  #       label: 'Description'
+  #       widget: 'text'
+  #       required: false
+  #       hint: 'Optional detailed description of the event'
+  #     - name: 'based'
+  #       label: 'Location'
+  #       widget: 'string'
+  #       required: false
+  #       hint: 'Where you were based during this event'
+  #     - name: 'doing'
+  #       label: 'Activity'
+  #       widget: 'string'
+  #       required: false
+  #       hint: 'What you were doing during this time'
+  #     - name: 'tags'
+  #       label: 'Tags'
+  #       widget: 'list'
+  #       allow_add: true
+  #       required: false
+  #       hint: 'Optional tags to categorize your events'
+
+  # # Configuration files management
+  # - name: 'config'
+  #   label: 'Site Configuration'
+  #   files:
+  #     - name: 'colors'
+  #       label: 'Colors Configuration'
+  #       file: 'data/colors.yml'
+  #       fields:
+  #         - name: 'body'
+  #           label: 'Colors YAML'
+  #           widget: 'code'
+  #           default_language: 'yaml'
+  #           output_code_only: true
+  #     - name: 'hugo_config'
+  #       label: 'Hugo Configuration'
+  #       file: 'hugo.toml'
+  #       fields:
+  #         - name: 'body'
+  #           label: 'Hugo Config'
+  #           widget: 'code'
+  #           default_language: 'toml'
+  #           output_code_only: true
+
+# Editor configuration
+editor:
+  preview: false
+# Publishing options
+# publish_mode: editorial_workflow
