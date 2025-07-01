@@ -1,26 +1,5 @@
-
-content:
-  - name: events
-    label: Life Events
-    type: file
-    path: data/events.yml
-    fields:
-      - name: body
-        label: Events Timeline
-        type: code
-        description: Edit your life events directly in YAML format. Be careful with formatting!
-        options:
-          language: yaml
-
-  # Colors configuration
-  - name: colors
-    label: Colors
-    type: file
-    path: data/colors.yml
-    fields:
-      - name: body
-        label: Colors YAML
-        type: code
-        options:
-          language: yaml
-
+media:
+  - name: docs
+    label: Documents
+    input: files/documents
+    output: /files/documents
