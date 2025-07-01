@@ -1,5 +1,5 @@
-media:
-  - name: docs
-    label: Documents
-    input: data
-    output: /data
+content:
+  - name: posts
+    label: Posts
+    path: data/events.yml
+    type: file
