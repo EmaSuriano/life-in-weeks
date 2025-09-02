@@ -42,7 +42,7 @@ content:
             type: string
           - name: description
             label: Description
-            type: text
+            type: string
             required: false
           - name: based
             label: Based In
