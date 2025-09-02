@@ -5,30 +5,21 @@ content:
     path: styles.json # Path to your JSON file
     format: json
     fields:
-      - name: '' # Empty name since the root is the array
+      - name: items
         type: object
         list: true
         fields:
           - name: class_name
             label: Class Name
             type: string
-            required: true
-            description: "CSS class name (e.g., 'buenos-aires', 'i-was-tiny')"
+            description: CSS class name (e.g., berlin, working)
           - name: element
             label: Element Type
-            type: select
-            required: true
-            options:
-              - label: Border
-                value: border
-              - label: Background Color
-                value: background-color
-            description: 'Type of CSS property this class affects'
-          - name: color_name
-            label: Color
             type: string
-            required: true
-            pattern:
-              regex: '^(#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{3}|[a-zA-Z]+)$'
-              message: 'Must be a valid hex color (#RRGGBB or #RGB) or color name'
-            description: "Color value (hex code like '#94A3B8' or color name like 'white')"
+            options: [border, background-color]
+            description: Whether this is a border or background color
+          - name: color_name
+            label: Color Value
+            type: string
+            pattern: ^#[0-9A-Fa-f]{6}$|^[a-z]+$
+            description: Hex color code
