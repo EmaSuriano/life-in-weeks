@@ -1,5 +1,5 @@
 content:
-  - name: content
+  - name: colors
     label: Content
     type: file
     path: data/content.json # Path to your JSON file
@@ -23,7 +23,7 @@ content:
             type: string
             pattern: ^#[0-9A-Fa-f]{6}$|^[a-z]+$
 
-  - name: content
+  - name: events
     label: Events
     type: file
     path: data/content.json # Path to your JSON file
