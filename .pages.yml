@@ -1,6 +1,6 @@
 content:
   - name: colors
-    label: Content
+    label: Colors
     type: file
     path: data/content.json # Path to your JSON file
     format: json
