@@ -1,7 +1,7 @@
 content:
   - name: events
     label: Events
-    type: file
+    type: collection
     path: data/events.json
     view:
       fields: [date, headline]
@@ -30,7 +30,7 @@ content:
 
   - name: colors
     label: Colors
-    type: file
+    type: collection
     path: data/colors.json
     view:
       fields: [class_name, element, color_name]
