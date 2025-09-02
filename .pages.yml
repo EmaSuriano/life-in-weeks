@@ -1,10 +1,52 @@
+media: static
 content:
   - name: events
     label: Events
-    path: data/events.yml
-    type: file
-
+    type: object
+    path: data/events.json
+    view:
+      fields: [ date, headline ]
+    fields:
+      - name: date
+        label: Date
+        type: string
+        pattern: ^\d{4}-\d{2}-\d{2}$
+        description: Date in YYYY-MM-DD format
+      - name: headline
+        label: Headline
+        type: string
+        description: Event title with emoji
+      - name: description
+        label: Description
+        type: string
+        description: Detailed description of the event
+      - name: based
+        label: Location
+        type: string
+        description: Where you were based (e.g., Berlin, Buenos Aires, Asia)
+      - name: doing
+        label: Activity
+        type: string
+        description: What you were doing (e.g., Working, Travelling, Studying)
+        
   - name: colors
     label: Colors
-    path: data/colors.yml
-    type: file
+    type: collection
+    path: data/colors.json
+    view:
+      fields: [ class_name, element, color_name ]
+    fields:
+      - name: class_name
+        label: Class Name
+        type: string
+        description: CSS class name (e.g., berlin, working)
+      - name: element
+        label: Element Type
+        type: string
+        options: [ border, background-color ]
+        description: Whether this is a border or background color
+      - name: color_name
+        label: Color Value
+        type: string
+        pattern: ^#[0-9A-Fa-f]{6}$|^[a-z]+$
+        description: Hex color code (e.g., #F87171) or color name (e.g., white)
