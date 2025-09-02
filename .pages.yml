@@ -2,7 +2,7 @@ content:
   - name: styles
     label: Style Classes
     type: file
-    path: styles.json # Path to your JSON file
+    path: data/colors.json # Path to your JSON file
     format: json
     fields:
       - name: items
