@@ -1,8 +1,7 @@
-media: static
 content:
   - name: events
     label: Events
-    type: object
+    type: collection
     path: data/events.json
     view:
       fields: [ date, headline ]
