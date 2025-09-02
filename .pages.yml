@@ -12,13 +12,12 @@ content:
           - name: class_name
             label: Class Name
             type: string
-            description: CSS class name (e.g., berlin, working)
           - name: element
             label: Element Type
-            type: string
-            description: Whether this is a border or background color
+            type: select
+            options:
+              values: [border, background-color]
           - name: color_name
             label: Color Value
             type: string
             pattern: ^#[0-9A-Fa-f]{6}$|^[a-z]+$
-            description: Hex color code
