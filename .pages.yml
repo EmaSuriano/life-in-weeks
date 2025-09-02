@@ -31,7 +31,7 @@ content:
   - name: colors
     label: Colors
     type: file
-    path: 'data/colors.json'
+    path: data/colors.json
     view:
       fields: [class_name, element, color_name]
     fields:
