@@ -16,7 +16,6 @@ content:
           - name: element
             label: Element Type
             type: string
-            options: [border, background-color]
             description: Whether this is a border or background color
           - name: color_name
             label: Color Value
