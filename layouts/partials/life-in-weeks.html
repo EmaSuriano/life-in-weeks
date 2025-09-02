@@ -19,7 +19,7 @@ This template uses $.Store to keep updated variable values in scope outside of r
 There are three main loops in this page, each nested inside the other: Years, Weeks, Days.
 */ -}}
 
-{{ $eventsArray := .Site.Data.events }}
+{{ $eventsArray := .Site.Data.content.events }}
 {{ $data := dict }}
 {{ range $eventsArray }}
   {{ $data = merge $data (dict .date .) }}

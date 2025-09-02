@@ -1,11 +1,12 @@
 content:
-  - name: styles
-    label: Style Classes
+  - name: content
+    label: Content
     type: file
-    path: data/colors.json # Path to your JSON file
+    path: data/content.json # Path to your JSON file
     format: json
     fields:
-      - name: items
+      - name: colors
+        label: Style Classes
         type: object
         list: true
         fields:
@@ -21,3 +22,26 @@ content:
             label: Color Value
             type: string
             pattern: ^#[0-9A-Fa-f]{6}$|^[a-z]+$
+      - name: events
+        label: Life Events
+        type: object
+        list: true
+        fields:
+          - name: date
+            label: Date
+            type: date
+          - name: headline
+            label: Headline
+            type: string
+          - name: description
+            label: Description
+            type: text
+            required: false
+          - name: based
+            label: Based In
+            type: string
+            required: false
+          - name: doing
+            label: Activity
+            type: string
+            required: false

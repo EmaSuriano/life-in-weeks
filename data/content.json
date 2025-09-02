@@ -1,0 +1,351 @@
+{
+  "colors": [
+    {
+      "class_name": "buenos-aires",
+      "element": "border",
+      "color_name": "#94A3B8"
+    },
+    {
+      "class_name": "berlin",
+      "element": "border",
+      "color_name": "#F87171"
+    },
+    {
+      "class_name": "sydney",
+      "element": "border",
+      "color_name": "#60A5FA"
+    },
+    {
+      "class_name": "copenhagen",
+      "element": "border",
+      "color_name": "#FACC15"
+    },
+    {
+      "class_name": "asia",
+      "element": "border",
+      "color_name": "#C084FC"
+    },
+    {
+      "class_name": "munich",
+      "element": "border",
+      "color_name": "#ff8904"
+    },
+    {
+      "class_name": "i-was-tiny",
+      "element": "background-color",
+      "color_name": "white"
+    },
+    {
+      "class_name": "playing-in-the-kinder-garden",
+      "element": "background-color",
+      "color_name": "#cbfbf1"
+    },
+    {
+      "class_name": "learning-to-read-and-write",
+      "element": "background-color",
+      "color_name": "#cefafe"
+    },
+    {
+      "class_name": "being-a-stupid-teenager",
+      "element": "background-color",
+      "color_name": "#dff2fe"
+    },
+    {
+      "class_name": "learning-to-be-a-programmer",
+      "element": "background-color",
+      "color_name": "#ede9fe"
+    },
+    {
+      "class_name": "studying-computer-science",
+      "element": "background-color",
+      "color_name": "#fce7f3"
+    },
+    {
+      "class_name": "studying-ai",
+      "element": "background-color",
+      "color_name": "#FFE4E6"
+    },
+    {
+      "class_name": "studying-german",
+      "element": "background-color",
+      "color_name": "#FFE4E6"
+    },
+    {
+      "class_name": "travelling",
+      "element": "background-color",
+      "color_name": "#F3E8FF"
+    },
+    {
+      "class_name": "watching-football",
+      "element": "background-color",
+      "color_name": "#D1FAE5"
+    },
+    {
+      "class_name": "staying-at-home",
+      "element": "background-color",
+      "color_name": "#F5F5F4"
+    },
+    {
+      "class_name": "working",
+      "element": "background-color",
+      "color_name": "#ffedd4"
+    },
+    {
+      "class_name": "enjoying-life",
+      "element": "background-color",
+      "color_name": "white"
+    }
+  ],
+  "events": [
+    {
+      "date": "1993-07-27",
+      "headline": "🐣 I was born",
+      "based": "Buenos Aires",
+      "doing": "I was tiny"
+    },
+    {
+      "date": "1995-03-01",
+      "headline": "👼 First day at pre-school"
+    },
+    {
+      "date": "1997-03-01",
+      "headline": "🧸 First day at kinder garden",
+      "doing": "Playing in the kinder garden"
+    },
+    {
+      "date": "1999-03-01",
+      "headline": "👶 First day at primary school",
+      "doing": "Learning to read and write"
+    },
+    {
+      "date": "2000-03-20",
+      "headline": "⚽️ First football class",
+      "description": "Started my road to become the next Messi, never got there ..."
+    },
+    {
+      "date": "2001-03-20",
+      "headline": "♟️ First chess class",
+      "description": "I started to take chess classes"
+    },
+    {
+      "date": "2002-03-01",
+      "headline": "📓 Started to study English",
+      "description": "I started to study English at a language school"
+    },
+    {
+      "date": "2003-05-20",
+      "headline": "🎾 First tennis classes",
+      "description": "I started to take tennis classes"
+    },
+    {
+      "date": "2005-03-01",
+      "headline": "👦 First day at secondary school",
+      "description": "I started secondary school",
+      "doing": "Being a stupid teenager"
+    },
+    {
+      "date": "2008-03-01",
+      "headline": "👦 Change secondary school",
+      "description": "I changed to a new secondary school"
+    },
+    {
+      "date": "2009-03-01",
+      "headline": "🧑‍💻 Change to a technical school",
+      "description": "I changed to a technical school to study programming",
+      "doing": "Learning to be a programmer"
+    },
+    {
+      "date": "2012-01-01",
+      "headline": "👨‍🎓 Start the University",
+      "description": "I started studying computer science at the University of La Matanza",
+      "doing": "Studying computer science"
+    },
+    {
+      "date": "2012-03-01",
+      "headline": "📚 First English certification",
+      "description": "I got my first English certification, FCE (B2)"
+    },
+    {
+      "date": "2014-11-01",
+      "headline": "🐶 Lara joins the family",
+      "description": "We picked up Lara when she was 3 months old"
+    },
+    {
+      "date": "2014-11-24",
+      "headline": "🚗 Get my first car",
+      "description": "I bought my first car, a Land Rover"
+    },
+    {
+      "date": "2015-02-01",
+      "headline": "👨‍💻 Start working in Q-Services",
+      "description": "I started working as a programmer at a small oil company in Buenos Aires",
+      "doing": "Working"
+    },
+    {
+      "date": "2015-09-29",
+      "headline": "👨‍💻 Start working in Globant",
+      "description": "I started working at Globant, one of the biggest IT company in Argentina"
+    },
+    {
+      "date": "2016-08-01",
+      "headline": "👨‍💻 Switch to FDV Consulting",
+      "description": "I switched to FDV, maybe the best team I worked with"
+    },
+    {
+      "date": "2017-11-11",
+      "headline": "🎓 Finish University",
+      "description": "I finished my studies in computer science at the University of La Matanza"
+    },
+    {
+      "date": "2018-01-05",
+      "headline": "🇺🇸 First trip to USA",
+      "description": "I went to Miami and Disney for the first time"
+    },
+    {
+      "date": "2018-05-28",
+      "headline": "🇪🇺 First trip to Europe",
+      "description": "I visited Europe for the first time"
+    },
+    {
+      "date": "2018-08-20",
+      "headline": "🇩🇪 Move to Berlin",
+      "description": "I moved to Germany to start a new life",
+      "based": "Berlin"
+    },
+    {
+      "date": "2018-08-27",
+      "headline": "🧑‍💻 Join GoEuro/Omio",
+      "description": "Started working at GoEuro, now Omio",
+      "doing": "Working"
+    },
+    {
+      "date": "2020-01-02",
+      "headline": "🇹🇭 Solo trip in Thailand",
+      "description": "My first long solo trip in Asia, I went to Thailand for a month",
+      "based": "Asia",
+      "doing": "Travelling"
+    },
+    {
+      "date": "2020-01-24",
+      "headline": "🔙 Back Home",
+      "description": "I came back from the trip to Germany",
+      "based": "Berlin",
+      "doing": "Working"
+    },
+    {
+      "date": "2020-01-27",
+      "headline": "🦠 COVID-19",
+      "description": "The first case of COVID-19 was confirmed in Germany",
+      "doing": "Staying at home"
+    },
+    {
+      "date": "2020-03-23",
+      "headline": "🇩🇪 Start german lessons",
+      "description": "I started taking german lessons",
+      "doing": "Studying german"
+    },
+    {
+      "date": "2020-09-11",
+      "headline": "📚 B1 German Exam",
+      "description": "I passed my B1 German Exam"
+    },
+    {
+      "date": "2020-11-10",
+      "headline": "🧑‍💻 Join Revolut",
+      "description": "Started working at Revolut",
+      "doing": "Working"
+    },
+    {
+      "date": "2022-03-13",
+      "headline": "🇩🇰 Move to Denmark",
+      "description": "I moved to Denmark for a month",
+      "based": "Copenhagen"
+    },
+    {
+      "date": "2022-04-03",
+      "headline": "🔙 Back Home",
+      "description": "I came back from the trip to Germany",
+      "based": "Berlin"
+    },
+    {
+      "date": "2022-11-02",
+      "headline": "🤖 Release of Chat GPT",
+      "description": "The first version of Chat GPT was released to the public"
+    },
+    {
+      "date": "2022-11-20",
+      "headline": "⚽️ FIFA World Cup Qatar",
+      "description": "The World Cup in Qatar 2022 started",
+      "doing": "Watching football"
+    },
+    {
+      "date": "2022-12-18",
+      "headline": "🇦🇷 Argentina World Champion",
+      "description": "Argentina won the World Cup in Qatar",
+      "doing": "Working"
+    },
+    {
+      "date": "2023-08-12",
+      "headline": "📚 B2 German Exam",
+      "description": "I passed my B1 German Exam"
+    },
+    {
+      "date": "2024-01-02",
+      "headline": "🧘 Sabatical Trip in Asia",
+      "description": "I took a sabatical trip to Asia",
+      "based": "Asia",
+      "doing": "Travelling"
+    },
+    {
+      "date": "2024-03-13",
+      "headline": "🤖 Start AI Master Thesis",
+      "description": "I took the decision to start my master thesis in AI",
+      "doing": "Studying AI"
+    },
+    {
+      "date": "2024-04-23",
+      "headline": "🔙 Back Home",
+      "description": "I came back from the trip to Germany",
+      "based": "Berlin"
+    },
+    {
+      "date": "2024-11-01",
+      "headline": "🇦🇺 Move to Sydney",
+      "description": "I moved to Australia for a month",
+      "based": "Sydney"
+    },
+    {
+      "date": "2024-11-17",
+      "headline": "🔙 Back Home",
+      "description": "I came back from the trip to Germany",
+      "based": "Berlin"
+    },
+    {
+      "date": "2025-01-31",
+      "headline": "🐶 Chimi joins the family",
+      "description": "We picked up Chimi from Ukraine"
+    },
+    {
+      "date": "2025-03-13",
+      "headline": "📜 Finish AI Master Thesis",
+      "description": "After a lot of hard work, I submitted my thesis with 9.5/10",
+      "doing": "Working"
+    },
+    {
+      "date": "2025-03-16",
+      "headline": "📍 Made this",
+      "description": "A lot of self reflection of my life and the things that I have done"
+    },
+    {
+      "date": "2025-05-27",
+      "headline": "🇩🇪 Got German citizenship",
+      "description": "I got my German citizenship after 6 years of living in Germany!"
+    },
+    {
+      "date": "2025-07-08",
+      "headline": "🥨 Move to Munich",
+      "description": "We moved to Munich to be closer to the nature",
+      "based": "Munich"
+    }
+  ]
+}
