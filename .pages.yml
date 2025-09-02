@@ -2,9 +2,9 @@ content:
   - name: events
     label: Events
     type: collection
-    path: data/events.json
+    path: 'data/events.json'
     view:
-      fields: [ date, headline ]
+      fields: [date, headline]
     fields:
       - name: date
         label: Date
@@ -27,13 +27,13 @@ content:
         label: Activity
         type: string
         description: What you were doing (e.g., Working, Travelling, Studying)
-        
+
   - name: colors
     label: Colors
     type: collection
-    path: data/colors.json
+    path: 'data/colors.json'
     view:
-      fields: [ class_name, element, color_name ]
+      fields: [class_name, element, color_name]
     fields:
       - name: class_name
         label: Class Name
@@ -42,7 +42,7 @@ content:
       - name: element
         label: Element Type
         type: string
-        options: [ border, background-color ]
+        options: [border, background-color]
         description: Whether this is a border or background color
       - name: color_name
         label: Color Value
